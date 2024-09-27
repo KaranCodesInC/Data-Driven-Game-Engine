@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Attributed">
+      <UniqueIdentifier>{8449fc58-e396-430f-93b5-6c871218d540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RTTI">
+      <UniqueIdentifier>{0b571f4b-4a18-4218-837e-11b1f9985795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\JSONParsing">
+      <UniqueIdentifier>{d46fc944-bdcc-440c-94d4-06f666e63ae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\JSONParsing">
+      <UniqueIdentifier>{020aceaf-eccc-4a16-8a26-bb405e19717a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Attributed">
+      <UniqueIdentifier>{ba9688f1-2d66-4079-87bb-0823f1018771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RTTI">
+      <UniqueIdentifier>{8e59097f-3669-45fa-92d6-e5b5dd5a5db8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Factory">
+      <UniqueIdentifier>{881da9cf-07c9-4a40-9055-5c595ddfddce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Factory">
+      <UniqueIdentifier>{23b32c8f-4ec9-432f-a97f-62d5515281fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject">
+      <UniqueIdentifier>{c3c3668d-460a-4dcc-b889-1fc7864010a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject">
+      <UniqueIdentifier>{a823e9eb-46c1-4f05-9e22-f6a871216342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Action">
+      <UniqueIdentifier>{fea02df5-5a44-420a-bc75-e6aa740e923d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Action">
+      <UniqueIdentifier>{fb98d775-d4f1-48dd-a070-b4aea74fee80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Event">
+      <UniqueIdentifier>{f7bad4b6-1f66-4eaf-907e-48f4b1cc17fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Event">
+      <UniqueIdentifier>{6e9cee0d-cc9b-42d7-89f1-1b62b5fe940d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Datum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scope.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributed.h">
+      <Filter>Header Files\Attributed</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributedBar.h">
+      <Filter>Header Files\Attributed</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributedFoo.h">
+      <Filter>Header Files\Attributed</Filter>
+    </ClInclude>
+    <ClInclude Include="Derived.h">
+      <Filter>Header Files\RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="Empty.h">
+      <Filter>Header Files\RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="Foo.h">
+      <Filter>Header Files\RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="IParseHandler.h">
+      <Filter>Header Files\JSONParsing</Filter>
+    </ClInclude>
+    <ClInclude Include="ParseCoordinator.h">
+      <Filter>Header Files\JSONParsing</Filter>
+    </ClInclude>
+    <ClInclude Include="ScopeHandler.h">
+      <Filter>Header Files\JSONParsing</Filter>
+    </ClInclude>
+    <ClInclude Include="TestParseHandler.h">
+      <Filter>Header Files\JSONParsing</Filter>
+    </ClInclude>
+    <ClInclude Include="TestIntHandler.h">
+      <Filter>Header Files\JSONParsing</Filter>
+    </ClInclude>
+    <ClInclude Include="RTTI.h">
+      <Filter>Header Files\RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="Temp.h">
+      <Filter>Header Files\RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="signature.h">
+      <Filter>Header Files\Attributed</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeManager.h">
+      <Filter>Header Files\Attributed</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixHandler.h">
+      <Filter>Header Files\JSONParsing</Filter>
+    </ClInclude>
+    <ClInclude Include="VecHandler.h">
+      <Filter>Header Files\JSONParsing</Filter>
+    </ClInclude>
+    <ClInclude Include="StringHandler.h">
+      <Filter>Header Files\JSONParsing</Filter>
+    </ClInclude>
+    <ClInclude Include="IntHandler.h">
+      <Filter>Header Files\JSONParsing</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatHandler.h">
+      <Filter>Header Files\JSONParsing</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributedHandler.h">
+      <Filter>Header Files\JSONParsing</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryManager.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributedAssassin.h">
+      <Filter>Header Files\Attributed</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>Header Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionIncrement.h">
+      <Filter>Header Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionList.h">
+      <Filter>Header Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionListWhile.h">
+      <Filter>Header Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorcerer.h">
+      <Filter>Header Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="IEvent.h">
+      <Filter>Header Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler.h">
+      <Filter>Header Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Subscriber.h">
+      <Filter>Header Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Header Files\Event</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Datum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scope.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IParseHandler.cpp">
+      <Filter>Source Files\JSONParsing</Filter>
+    </ClCompile>
+    <ClCompile Include="ParseCoordinator.cpp">
+      <Filter>Source Files\JSONParsing</Filter>
+    </ClCompile>
+    <ClCompile Include="TestIntHandler.cpp">
+      <Filter>Source Files\JSONParsing</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributed.cpp">
+      <Filter>Source Files\Attributed</Filter>
+    </ClCompile>
+    <ClCompile Include="RTTI.cpp">
+      <Filter>Source Files\RTTI</Filter>
+    </ClCompile>
+    <ClCompile Include="Empty.cpp">
+      <Filter>Source Files\RTTI</Filter>
+    </ClCompile>
+    <ClCompile Include="Foo.cpp">
+      <Filter>Source Files\RTTI</Filter>
+    </ClCompile>
+    <ClCompile Include="Derived.cpp">
+      <Filter>Source Files\RTTI</Filter>
+    </ClCompile>
+    <ClCompile Include="TestParseHandler.cpp">
+      <Filter>Source Files\JSONParsing</Filter>
+    </ClCompile>
+    <ClCompile Include="ScopeHandler.cpp">
+      <Filter>Source Files\JSONParsing</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributedBar.cpp">
+      <Filter>Source Files\Attributed</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributedFoo.cpp">
+      <Filter>Source Files\Attributed</Filter>
+    </ClCompile>
+    <ClCompile Include="Temp.cpp">
+      <Filter>Source Files\RTTI</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeManager.cpp">
+      <Filter>Source Files\Attributed</Filter>
+    </ClCompile>
+    <ClCompile Include="IntHandler.cpp">
+      <Filter>Source Files\JSONParsing</Filter>
+    </ClCompile>
+    <ClCompile Include="MatHandler.cpp">
+      <Filter>Source Files\JSONParsing</Filter>
+    </ClCompile>
+    <ClCompile Include="VecHandler.cpp">
+      <Filter>Source Files\JSONParsing</Filter>
+    </ClCompile>
+    <ClCompile Include="StringHandler.cpp">
+      <Filter>Source Files\JSONParsing</Filter>
+    </ClCompile>
+    <ClCompile Include="FloatHandler.cpp">
+      <Filter>Source Files\JSONParsing</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributedHandler.cpp">
+      <Filter>Source Files\JSONParsing</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory.cpp">
+      <Filter>Source Files\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributedAssassin.cpp">
+      <Filter>Source Files\Attributed</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionIncrement.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionListWhile.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionList.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorcerer.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="IEvent.cpp">
+      <Filter>Source Files\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHandler.cpp">
+      <Filter>Source Files\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Source Files\Event</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Datum.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="RTTI.inl">
+      <Filter>Source Files\RTTI</Filter>
+    </None>
+    <None Include="FactoryManager.inl">
+      <Filter>Source Files\Factory</Filter>
+    </None>
+    <None Include="Factory_Test_json.json">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
